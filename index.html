@@ -81,7 +81,7 @@
                     </div>
                     <!--Slide 6 of 6-->
                     <div class="mySlides fade">
-                        <img class="Slideshow_Images" src="images/" alt="">
+                        <img class="Slideshow_Images" src="images/slideshow_image.jpg" alt="">
                         <div class="text"><a class="white-text contact" onclick="openForm()">Contact me now!</a></div>
                     </div>
                     <!--Previous and next buttons-->
@@ -142,7 +142,8 @@
         <div id="Contact">
             <button onclick="openForm()" class="Pop_Up_Button">CONTACT</button>
             <div class="form-popup" id="myForm">
-                <form action="https://">
+                <form action="" method="POST" class="form-container"> <!-- Here we are using a free online service from https://formspree.io/ to send our contact form to an email address of our choosing - note: it will not run unless live on the internet, you have to push it to your online website first -->
+                    <h1>Contact</h1>
                     <label for="name"><b>Name</b></label>
                     <input type="text" placeholder="Type your name here" name="name" required>
                     <label for="phone"><b>Phone</b></label>
